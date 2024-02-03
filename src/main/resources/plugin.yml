@@ -1,0 +1,8 @@
+name: customPlugin
+version: '${project.version}'
+main: minecraft.customplugins.customplugin.CustomPlugin
+api-version: '1.20'
+commands:
+  suicide:
+    description: when player types this, they will automaticly die
+    usage: /<command>
